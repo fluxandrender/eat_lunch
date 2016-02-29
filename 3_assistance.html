@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Austin Independent School District - Application for Free or Reduced-Price Breakfast and Lunch</title>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</head>
+
+<body class="container">
+
+	<header class="page-header text-center assistanceHeader">
+		<div class="progress">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+		      <span class="sr-only">15% Complete</span>
+		   </div>
+		</div>
+		<h1 class="lead">SNAP, TANF, and FDPIR are federal and state assistance programs.</h1>
+		<div class="speaker"><span class="icon-c" style="color: white"></span></div>
+		<img src="img/assistance.svg" class="img-responsive" alt="Responsive image" style="max-height: 200px;" />
+	</header>
+
+	<div class="drawer">
+		<p class="drawer_title">
+			<a role="button" data-toggle="collapse" href="#collapseAssistanceExample" aria-expanded="false" aria-controls="collapseAssistanceExample">
+			  What does this mean?&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-d" style="color: #d13f62;  vertical-align: middle;"></span>
+			</a>
+		</p>
+		<div class="collapse" id="collapseAssistanceExample">
+		  <div>
+		    <p class="drawer_body">Supplemental Nutritional Assistance Program (SNAP) offers nutritional assistance to low income families. For more info, visit: <a href="http://www.snap.com" target="_blank" style="color: #d13f62;">www.snap.com</a></p>
+		    <p class="drawer_body">Temporary Assistance for Needy Families (TANF) provides state-funded financial support for families. For more info visit: <a href="http://www.tanf.com" target="_blank" style="color: #d13f62;">www.tanf.com</a></p>
+		    <p class="drawer_body">Food Distribution Program on Indian Reservations (FDPIR) provides food to low-income households that contain at least one federally-recognized tribe member. For more info visit: <a href="http://www.fdpir.com" target="_blank" style="color: #d13f62;">www.fdpir.com</a></p>
+		    <p class="drawer_body">Call 1-800-[DISTRICT SUPPORT OFFICE #] for more help.</p>
+		  </div>
+		</div>
+	</div>
+
+	<div class="main">
+		<p class="section_header">Do <strong>you</strong> or any household members use SNAP, TANF, or FDPIR?</p>
+
+		<p class="radio">
+		    <input id="yes" type="radio" name="assistance" value="yes" data-toggle="collapse" data-target="#edgExample">
+		    <label class="selectLabel" for="yes" style="padding-left: 24px; margin-right: 50px;">Yes</label>
+		    <input id="no" type="radio" name="assistance" value="no" data-toggle="collapse" data-target="#edgExample" checked="checked">
+		    <label class="selectLabel" for="no" style="padding-left: 24px;">No</label>
+		</p>
+		
+		<div class="panel-collapse collapse" id="edgExample" style="margin-top: 20px;">
+			<span class="field_title" style="line-height: 2em;">EDG Number</span><br />
+			<span class="field_hinttext" style="color: #333333; line-height: 1.5em;">This is an 8 or 9 digit number found on your benefits acceptance letter. This number determines which day of the month you receive your benefits. This is not your case number.</span>
+		<input type="text" class="form-control field_inactive_blank pink-form" style="width: 50%; margin-top: 10px;">
+		</div>
+		<div class="footerSpace"></div>
+	</div>
+
+	<footer class="navbar-fixed-bottom">
+		<a href="2_welcome.html"><span class="icon-a download back" style="color: #d13f62;"></span></a>
+		<a href="4_you.html"><span class="icon-b download next" style="color: #d13f62;"></span>
+		<span class="nav_text">Next</span></a>
+	</footer>
+
+</body>
+</html>

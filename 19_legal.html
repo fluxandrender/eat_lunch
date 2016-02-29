@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Austin Independent School District - Application for Free or Reduced-Price Breakfast and Lunch</title>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<style type="text/css">
+		input[type=radio]:checked + .selectLabel:before {
+		    content: "\2022";
+		    color: #31bba6;;
+		    font-size: 47px;
+		    text-align: center;
+		    line-height: 9px;
+		}
+	</style>
+</head>
+
+
+<body class="container">
+
+	<header class="page-header text-center legalHeader">
+		<div class="progress">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+		      <span class="sr-only">95% Complete</span>
+		   </div>
+		</div>
+		<h1 class="lead">You're almost done! Please sign and submit your application.</h1>
+		<div class="speaker"><span class="icon-c" style="color: white"></span></div>
+		<img src="img/legal.svg" class="img-responsive" alt="Responsive image" style="max-height: 200px;" />
+	</header>
+
+	<div class="text-center" style="border-bottom: 1px solid #e4e4e4; margin-top: 20px;">
+		<p><span class="icon-i" style="color: #31bba6;"></span>&nbsp;&nbsp;<span class="field_title">Download Official Eligibility Requirements</span></p>
+	</div>
+
+	<div class="drawer">
+		<p class="drawer_title">
+			<a role="button" data-toggle="collapse" href="#collapseAssistanceExample" aria-expanded="false" aria-controls="collapseAssistanceExample">
+			  Children's Racial &amp; Ethnic Identities&nbsp;&nbsp;&nbsp;&nbsp;<span class="icon-d" style="color: #31bba6; vertical-align:middle;"></span>
+			</a>
+		</p>
+		<div class="collapse" id="collapseAssistanceExample">
+		  <div>
+		    <p class="drawer_body">We are required to ask for information about your children's race and ethnicity. This information is important and helps to make sure we are fully serving our community. Responding to this section is optional and does not affect your children's eligibility for free or reduced price meals.</p>
+		    <p class="drawer_body" style="margin-top: 10px;">Ethnicity (check one)</p>
+		    <p class="drawer_body" style="margin-top: -10px;">
+		    	<label class="checkbox-inline field_title">
+			  		<input type="checkbox" id="inlineCheckbox1" value="option1"> Hispanic or Latino
+				</label>
+				<label class="checkbox-inline field_title">
+			 		<input type="checkbox" id="inlineCheckbox2" value="option2"> Not Hispanic or Latino
+				</label>
+			</p>
+		    <p class="drawer_body" style="margin-top: 10px;">Race (check one or more)</p>
+		    <p class="drawer_body" style="margin-top: -10px;">
+		    	<label class="checkbox-inline field_title">
+			  		<input type="checkbox" id="inlineCheckbox1" value="option1"> American Indian or Alaskan Native
+				</label>
+				<label class="checkbox-inline field_title">
+			 		<input type="checkbox" id="inlineCheckbox2" value="option2"> Asian
+				</label>
+		    	<label class="checkbox-inline field_title">
+			  		<input type="checkbox" id="inlineCheckbox1" value="option1"> African American
+				</label>
+				<label class="checkbox-inline field_title">
+			 		<input type="checkbox" id="inlineCheckbox2" value="option2"> Native Hawaiian or Other Pacific Islander
+				</label>
+				<label class="checkbox-inline field_title">
+			 		<input type="checkbox" id="inlineCheckbox2" value="option2"> White
+				</label>
+			</p>
+		  </div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div style="border-bottom: 1px solid #d1d1d1; padding-bottom: 15px;">
+			<p class="section_header">USDA Non-discrimination Statement</p>
+			<textarea class="form-control section_body" rows="5" style="font-size: 12px; margin-top: -15px; margin-bottom: 10px;">In accordance with Federal civil rights law and U.S. Department of Agriculture (USDA) civil rights regulations and policies, the USDA, its Agencies, offices, and employees, and institutions participating in or administering USDA programs are prohibited from discriminating based on race, color, national origin, religion, sex, gender identity (including gender expression), sexual orientation, disability, age, marital status, family/parental status, income derived from a public assistance program, political beliefs, or reprisal or retaliation for prior civil rights activity, in any program or activity conducted or funded by USDA (not all bases apply to all programs). Remedies and complaint filing deadlines vary by program or incident.
+
+			Persons with disabilities who require alternative means of communication for program information (e.g., Braille, large print, audiotape, American Sign Language, etc.) should contact the responsible Agency or USDA's TARGET Center at (202) 720-2600 (voice and TTY) or contact USDA through the Federal Relay Service at (800) 877-8339. Additionally, program information may be made available in languages other than English.
+
+			To file a program discrimination complaint, complete the USDA Program Discrimination Complaint Form, AD-3027, found online at How to File a Program Discrimination Complaint and at any USDA office or write a letter addressed to USDA and provide in the letter all of the information requested in the form. To request a copy of the complaint form, call (866) 632-9992. Submit your completed form or letter to USDA by: (1) mail: U.S. Department of Agriculture, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, SW, Washington, D.C. 20250-9410; (2) fax: (202) 690-7442; or (3) email: program.intake@usda.gov.</textarea>
+		
+		<p><span class="icon-i download" style="color: #31bba6;"></span><span class="download_text">Download a copy for your records</span></p>
+		<p class="section_body" style="font-size: 13px; margin-top: -10px;">I certify that I have read and understood all terms and conditions set forth in this application and that all of the information I have provided is true and accurate to the best of my knowledge.</p>
+		<p class="radio">
+		    <input id="yes" type="radio" name="assistance" value="yes" data-toggle="collapse" data-target="#edgExample">
+		    <label class="selectLabel" for="yes" style="padding-left: 24px; margin-right: 50px;">I agree</label>
+		    <input id="no" type="radio" name="assistance" value="no" data-toggle="collapse" data-target="#edgExample">
+		    <label class="selectLabel" for="no" style="padding-left: 24px;">I do not agree</label>
+		</p>
+		</div>
+		<div style="padding-bottom: 10px; padding-top: 20px; margin-bottom: 30px;">
+			<p class="section_header">Attesting Statement</p>
+			<p class="section_body" style="font-size: 13px; margin-top: -15px;">The person signing is providing true information and to advise that person that the application is being made in connection with receipt of Federal Funds; School officials may verify the information on the application; and Deliberate misrepresentation of the information may subject the applicant to prosecution under State and Federal statutes.</p>
+			<p class="field_title">Electronic Signature</p>
+			<p class="field_hinttext" style="color: #333; margin-top: -10px;">By typing your name below and submitting the application, you agree to the above terms.</p>
+			<form style="display: block; width: 100%; margin-top: -10px;">
+				<div class="form-group" style="padding-left:0; margin-top: 0px;">
+					<input type="text" class="form-control field_inactive_blank teal-form" id="firstName1" style="margin-top: 0px;">
+				</div>
+			</form>
+				<div style="clear: both;"></div>
+			<p class="field_hinttext" style="color: #333; margin-top: -10px; font-size: 10px;">Today's date: March 1, 2016</p>
+		</div>
+	</div>
+
+
+	<footer class="navbar-fixed-bottom">
+		<a href="18_review.html"><span class="icon-a download back" style="color: #31bba6;"></span></a>
+		<a href="20_done.html"><span class="icon-b download next" style="color: #31bba6;"></span>
+		<span class="nav_text">Submit Application</span></a>
+	</footer>
+
+</body>
+</html>

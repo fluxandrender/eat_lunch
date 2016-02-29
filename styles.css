@@ -1,0 +1,938 @@
+/*****************************
+	Base Element Styles
+*****************************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25em;
+	color: #333333;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.25em;
+	margin-bottom:20px;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 0.02px;
+	line-height: 0.04px;
+}
+
+h1.lead {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	line-height: 1.25em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.btn-default,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active
+{
+  background-color: #ffffff;
+  border: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_apple
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/apple_unselected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_apple:hover
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/apple_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_apple:focus,
+.btn-default_apple:active,
+.btn-default_apple.active
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/apple_selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_bread
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/bread_unselected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_bread:hover
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/bread_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_bread:focus,
+.btn-default_bread:active,
+.btn-default_bread.active
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/bread_selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_pear
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pear_unselected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_pear:hover
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pear_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_pear:focus,
+.btn-default_pear:active,
+.btn-default_pear.active
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pear_selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_pizza
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pizza_unselected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_pizza:hover
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pizza_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_pizza:focus,
+.btn-default_pizza:active,
+.btn-default_pizza.active
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/pizza_selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_carrot
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/carrot_unselected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_carrot:hover
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/carrot_hover.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-default_carrot:focus,
+.btn-default_carrot:active,
+.btn-default_carrot.active
+{
+  border: none;
+  background-color: #ffffff;
+  background-image: url(img/carrot_selected.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default_income {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+    color: #209b48;
+    border: 1px solid #929292;
+    background-color: #ffffff;
+    width: 32%;
+    height: 40px;
+    border-radius: 0px;
+    padding: 8px 7px;
+    margin-bottom: 5px;
+}
+
+.btn-default_income:hover {
+	border: none;
+	background-color: #209b48;
+	color: #fff;
+}
+
+.btn-default_income:focus,
+.btn-default_income:active,
+.btn-default_income.active {
+	border: none;
+	background-color: #209b48;
+	color: #fff;
+    -webkit-box-shadow: none;
+      box-shadow: none;
+}
+
+.input-group-addon {
+	background-color: #e4e4e4;
+	border:none;
+	border-radius: 0px;
+}
+
+/*****************************
+	Base Layout Styles
+*****************************/
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.main {
+	padding: 20px 20px 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	height: 50px;
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 15px 20px;
+	clear: both;
+}
+
+.footerSpace {
+	display: block;
+	width: 100%;
+	height: 180px;
+}
+
+.back {
+	float: left;
+}
+
+.next {
+	float: right;
+	margin-left: 10px;
+}
+
+.drawer {
+	width: 100%;
+	margin: 0;
+	background-color: #f1f1f1;
+	padding: 5px 20px 0;
+}
+
+
+
+/*****************************
+	Styles in Dev Deck
+*****************************/
+
+/* Header Section =========== */
+
+.header_title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 1em;
+	letter-spacing: 0.02px;
+	line-height: 0.04px;
+}
+
+/* Body Section =========== */
+
+.section_header {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+}
+
+.section_subhead {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+}
+
+.section_title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: #333;
+	font-size: 0.875em;
+}
+
+.section_body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 0.9375em;
+}
+
+.selectperson_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: #333;
+	font-size: 0.8125em;
+}
+
+.download_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #333;
+	font-size: 0.75em;
+	position: absolute;
+	margin-top: 0px;
+}
+
+/* Help Drawer =========== */
+
+.drawer_title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 0.8125em;
+	text-align: center;
+	letter-spacing: 0.01px;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+
+.drawer_title a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+}
+
+.drawer_body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 0.8125em;
+	letter-spacing: 0.01px;
+	line-height: 1.25em;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 0;
+}
+
+.income_body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 0.8125em;
+	letter-spacing: 0.01px;
+	line-height: 1.25em;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 0;
+	width: 30%;
+}
+
+.quiz {
+	background-color: #d1d1d1;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px 0;
+	position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}
+
+.quiz p {
+	vertical-align: middle;
+}
+
+/* Footer =========== */
+
+.nav_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #333;
+	font-size: 0.9375em;
+	text-transform: capitalize;	
+	float: right;
+}
+
+/* Form Elements =========== */
+
+.field_title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #333;
+	font-size: 0.75em;
+	letter-spacing: 0.025px;
+}
+
+.field_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+}
+
+.field_hinttext {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #9a1b1f;
+	font-size: .6875em;
+}
+
+.radiobutton_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+}
+
+.checkbox_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+}
+
+.frequencybtn_text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #209b48;
+	font-size: .75em;
+	text-align: center;
+}
+
+/* Text Fields =========== */
+
+.form-control,
+.pink-form,
+.purple-form,
+.green-form,
+.teal-form {
+	height: 2em;
+	border: 1px solid #e4e4e4;
+	border-radius: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+.pink-form:focus {
+	height: 2em;
+	border: 1px solid #d13f62;
+	border-radius: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+.purple-form:focus {
+	height: 2em;
+	border: 1px solid #7e55a3;
+	border-radius: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+.green-form:focus {
+	height: 2em;
+	border: 1px solid #209b48;
+	border-radius: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+.teal-form:focus {
+	height: 2em;
+	border: 1px solid #31bba6;
+	border-radius: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #333;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+
+
+/*****************************
+	Form Elements
+*****************************/
+
+label, .selectLabel {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.selectLabel:before {
+    content: "";
+    display: inline-block;
+ 
+    width: 20px;
+    height: 20px;
+ 
+    margin-right: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #fff;
+    border: 2px solid #d1d1d1;
+}
+
+.radio .selectLabel:before {
+    border-radius: 10px;
+}
+
+input[type=radio]:checked + .selectLabel:before {
+    content: "\2022";
+    color: #d13f62;
+    font-size: 47px;
+    text-align: center;
+    line-height: 9px;
+}
+
+
+/*****************************
+	Icon Set
+*****************************/
+
+@font-face {
+    font-family: 'eat';
+    src:    url('fonts/eat.eot?j24mxp');
+    src:    url('fonts/eat.eot?j24mxp#iefix') format('embedded-opentype'),
+        url('fonts/eat.ttf?j24mxp') format('truetype'),
+        url('fonts/eat.woff?j24mxp') format('woff'),
+        url('fonts/eat.svg?j24mxp#eat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'eat' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a:before {
+    content: "\61";
+}
+.icon-b:before {
+    content: "\62";
+}
+.icon-c:before {
+    content: "\63";
+}
+.icon-d:before {
+    content: "\64";
+}
+.icon-e:before {
+    content: "\65";
+}
+.icon-f:before {
+    content: "\66";
+}
+.icon-g:before {
+    content: "\67";
+}
+.icon-h:before {
+    content: "\68";
+}
+.icon-i:before {
+    content: "\69";
+}
+.icon-j:before {
+    content: "\6a";
+}
+.icon-k:before {
+    content: "\6b";
+}
+.icon-l:before {
+    content: "\6c";
+}
+.icon-m:before {
+    content: "\6d";
+}
+.icon-n:before {
+    content: "\6e";
+}
+.icon-o:before {
+    content: "\6f";
+}
+.icon-p:before {
+    content: "\70";
+}
+.icon-q:before {
+    content: "\71";
+}
+.icon-r:before {
+    content: "\72";
+}
+
+
+
+/*****************************
+	Section Header Blocks
+*****************************/
+
+.page-header {
+	width: 100%;
+	padding: 15px 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.welcomeHeader {
+	background-color: #4555a5;
+	background-image: url(img/welcomeBG.svg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.householdHeader {
+	background-color: #7e55a3;
+	background-image: url(img/householdBG.svg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.studentStatusHeader {
+	background-color: #129dcd;
+	background-image: url(img/studentStatusBG.svg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.assistanceHeader {
+	background-color: #d13f62;
+	background-image: url(img/assistanceBG.svg);
+	background-size: 135%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.incomeHeader {
+	background-color: #209b48;
+	background-image: url(img/incomeBG.svg);
+	background-size: 135%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.reviewHeader {
+	background-color: #f58335;
+	background-image: url(img/reviewBG.svg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.legalHeader {
+	background-color: #31bba6;
+	background-image: url(img/legalBG.svg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.doneHeader {
+	background-color: #f3a90b;
+	background-image: url(img/doneBG.svg);
+	background-size: 135%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.progress {
+	background: rgba(255, 255, 255, .4);
+	color: #fff;
+	height: 4px;
+	border-radius: 2px;
+}
+
+.progress-bar {
+	background: rgba(255, 255, 255, 1);
+	height: 4px;
+	border-radius: 2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.speaker {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.download {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+
+
+
+/*****************************
+	Language Selection List
+*****************************/
+
+.languages {
+	padding: 0;
+	margin-top:-20px;
+}
+
+.languages li {
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #e4e4e4;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.languages li:hover {
+	background-color: #e4e4e4;
+}
+
+.languages li a {
+	text-decoration: none;
+}
+
+.languages li span.icon-b {
+	float: right;
+	font-size: 20px;
+	color: #4555a5;
+	margin-top: 5px;
+}
+
+li.languageLabel {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 1.6;
+	color: #333333;
+	padding-top: 10px;
+}
+
+.languageLabel a {
+	color: #333333;
+	text-decoration: none;
+}
+
+
+
+/*****************************
+	Footer Styles
+*****************************/
+
+.welcomeFooter {
+	background-color: #4555a5;
+}
+
+
+
+/*****************************
+	Media Queries
+*****************************/
+
+@media (min-width: 767px) {
+	.main,
+	.drawer_body,
+	.lead {
+		width: 80%;
+	}
+	.welcomeHeader,
+	.assistanceHeader,
+	.householdHeader,
+	.studentStatusHeader,
+	.incomeHeader {
+		background-size: 90%;
+	}
+	.drawer_body,
+	.lead {
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 991px) {
+	.main,
+	.drawer_body,
+	.lead {
+		width: 60%;
+	}
+	.welcomeHeader,
+	.assistanceHeader,
+	.householdHeader,
+	.studentStatusHeader,
+	.incomeHeader {
+		background-size: 80%;
+	}
+	.drawer_body,
+	.lead {
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1199px) {
+	.main,
+	.drawer_body,
+	.lead {
+		width: 50%;
+	}
+	.welcomeHeader,
+	.assistanceHeader,
+	.householdHeader,
+	.studentStatusHeader,
+	.incomeHeader {
+		background-size: 60%;
+	}
+	.drawer_body,
+	.lead {
+		margin: 0 auto;
+	}
+}
